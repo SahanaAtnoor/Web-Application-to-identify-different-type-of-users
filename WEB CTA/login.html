@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+	<link rel="stylesheet" href="assets/login.css">
+
+</head>
+<body>
+
+<form method="post" action="login1.php">
+		<fieldset>
+            
+			<legend id="reg">LOGIN</legend>
+
+        <label><b>User Type :</b></label>
+        <select style="border-radius: 4px; height: 28px; width: 55%;" >
+           
+            <option value = "Principal">Principal</option>
+            <option value = "Dean">Dean</option>
+            <option value = "Teacher">Teacher</option>
+            <option value = "Student">Student</option>
+        </select>
+    </br>
+</br>
+			<label for="username"> USERNAME </label> 
+				<input type="text" name="username" placeholder="Enter UserID" required >
+
+			<br>
+			<label for="password"> PASSWORD </label> 	
+			<input type="password" name="password" placeholder="Enter Password">
+			
+			<br>
+			<button type="submit" name="submit"><b> SUBMIT </b> </button>
+			<br>
+			
+			</fieldset>
+	</form>
+
+</body>
+</html>

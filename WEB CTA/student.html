@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    
+	<style>
+		body{
+			background-image: url("app/img/student.jpg");
+			background-repeat: no-repeat;
+    background-size: cover;
+		}
+		.center{
+			text-align: center;
+			padding: 23%;
+			font-size: 20px;
+		}
+		
+	
+        </style>
+</head>
+<body>
+<div class = "center">
+<h1>THIS IS STUDENT HOME PAGE</h1><?php echo $_SESSION["username"] ?>
+
+<a href="logout.php">Logout</a>
+	</div>
+</body>
+</html>
